@@ -1,0 +1,4 @@
+cp ../upload/$1 .
+git add $1
+git commit -m "add $1"
+git push -u origin main
