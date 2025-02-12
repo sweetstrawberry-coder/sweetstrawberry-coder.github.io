@@ -1,3 +1,4 @@
+cd /project/workspace/blog
 mv ../upload/$1 .
 git add $1
 git commit -m "add $1"
